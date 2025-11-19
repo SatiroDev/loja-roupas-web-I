@@ -93,8 +93,7 @@ Todo o estilo do site foi implementado no arquivo **style.css**, incluindo:
 
 O projeto foi publicado no **GitHub Pages** e pode ser acessado pelo link:
 
-🔗 **[Acessar o site](#)**  
-*(Ainda não iniciado!)*
+🔗 **[Acessar o site](https://satirodev.github.io/loja-roupas-web-I/)**  
 
 ---
 
