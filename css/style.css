@@ -99,6 +99,13 @@ h1  {
     padding: 20px;
     border-radius: 40px;
     font-size: 30px;
+    transition: ease 0.5s;
+}
+
+.confira:hover {
+    scale: 1.1;
+    background-color: #ff0000;
+    box-shadow: 0px 5px 10px 1px black;
 }
 
 .segundaParte {
@@ -136,6 +143,12 @@ h1  {
     border: 4px solid;
     border-color: #990000;
     border-radius: 100px;
+    transition: ease 0.1s;
+}
+
+.logoTime:hover {
+    scale: 1.1;
+    box-shadow: 0px 5px 10px 1px rgb(22, 22, 22);
 }
 
 .imgTime {
@@ -162,6 +175,13 @@ h1  {
     width: auto;
     height: auto;
     max-height: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px 0.5px rgb(117, 116, 116);
+    transition: ease 0.5s;
+}
+
+.camisaDestaque:hover {
+    transform: translateY(-5px);
 }
 
 .camisa1 {
@@ -216,4 +236,97 @@ h1  {
 
 .valor {
     color: #FF0000;
+}
+
+
+.mainDetalhes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 720px;
+    padding-top: 15px;
+    background-color: #E9E9E9;
+}
+
+.imagem {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0.5px rgb(117, 116, 116);
+    background-color: white;
+}
+
+.imagemCamisaCE {
+    width: auto;
+    min-width: 240px;
+}
+
+.geral {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.conteudoCamisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.conteudoPrincipalCamisa {
+    width: 50%;
+
+}
+
+.tituloCamisa {
+    font-size: 40px;
+}
+
+.tamanhos {
+    font-size: 15px;
+}
+
+.conteudoPrecoCamisa {
+    width: 50%;
+}
+
+.precoCamisa {
+    font-weight: bolder;
+    font-size: 30px;
+    color: #187601;
+}
+
+.parcelada {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bolder;
+}
+.valorP {
+    color: #FF0000;
+}
+.card {
+    width: 20px;
+}
+
+.botaoComprar {
+    width: 50%;
+}
+
+.comprar {
+    text-align: center;
+    background-color: #B10000;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.informacoesGeraisProduto {
+    width: 50%;
+    font-weight: bolder;
 }
