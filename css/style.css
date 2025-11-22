@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(85, 85, 85);
+    background-color: white;
 }
 
 header {
@@ -64,7 +64,8 @@ main {
     display: flex;
     min-height: 450px;
     max-height: 750px;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
     flex-wrap: wrap;
     background: linear-gradient(to right, black, #FF0000);
 }
@@ -102,21 +103,14 @@ h1  {
 
 .segundaParte {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
     height: 100%;
 }
 
-.camisaCe {
-    position: absolute;
-    width: auto;
-    height: 400px;
-    z-index: 1;
-}
-
-.camisaFL {
-    width: auto;
-    height: 310px;
-    margin-top: 13%;
-    margin-left: 2%;
+.camisaCeFl {
+    min-width: 290px;
 }
 
 .segundoMain {
@@ -151,7 +145,6 @@ h1  {
     display: flex;
     justify-content: space-around;
     height: auto;
-    border: solid;
     padding: 15px;
     flex-wrap: wrap;
     gap: 20px;
