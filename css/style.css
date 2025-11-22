@@ -219,6 +219,7 @@ h1  {
     font-weight: bold;
     max-width: 250px;
     font-size: 22px;
+    color: black;
 }
 
 .preco {
@@ -232,6 +233,10 @@ h1  {
     display: flex;
     gap: 5px;
     font-weight: bolder;
+}
+
+.meses {
+    color: black;
 }
 
 .valor {
@@ -253,11 +258,16 @@ h1  {
     border-radius: 10px;
     box-shadow: 0px 10px 10px 0.5px rgb(117, 116, 116);
     background-color: white;
+    transition: ease 0.5s;
+}
+
+.imagem:hover {
+    transform: translateY(-15px);
 }
 
 .imagemCamisaCE {
     width: auto;
-    min-width: 240px;
+    min-width: 200px;
 }
 
 .geral {
@@ -324,6 +334,13 @@ h1  {
     padding: 15px;
     border-radius: 10px;
     font-size: 20px;
+    transition: ease 0.3s;
+}
+
+.comprar:hover {
+    scale: 1.1;
+    background-color: #ff0000;
+    box-shadow: 0px 5px 10px 1px rgb(97, 97, 97);
 }
 
 .informacoesGeraisProduto {
