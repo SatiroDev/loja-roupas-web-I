@@ -105,12 +105,13 @@ h1  {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 40%;
     height: 100%;
 }
 
 .camisaCeFl {
-    width: 80%;
+    width: auto;
+
 }
 
 .segundoMain {
@@ -176,8 +177,9 @@ h1  {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 100px;
     width: 100px;
-    height: auto;
+    max-height: 50px;
     border-radius: 15px;
     background-color: #990000;
     margin-bottom: 10px;
