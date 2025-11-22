@@ -107,12 +107,13 @@ h1  {
 
 .camisaCe {
     position: absolute;
-
+    width: auto;
     height: 400px;
     z-index: 1;
 }
 
 .camisaFL {
+    width: auto;
     height: 310px;
     margin-top: 13%;
     margin-left: 2%;
@@ -147,8 +148,76 @@ h1  {
 }
 
 .camisasDestaques {
-    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
     border: solid;
-    background-color: black;
+    padding: 15px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
+.camisaDestaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #D9D9D9;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    max-height: 500px;
+}
+
+.camisa1 {
+    width: 180px;
+}
+
+.camisa {
+    height: auto;
+}
+
+
+.popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #990000;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.descricaoCamisa {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    height: auto;
+}
+
+.descricao {
+    font-weight: bold;
+    max-width: 250px;
+    font-size: 22px;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 30px;
+    color: #187601;
+}
+
+.parcelado {
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+    font-weight: bolder;
+}
+
+.valor {
+    color: #FF0000;
+}
