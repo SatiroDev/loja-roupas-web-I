@@ -259,6 +259,8 @@ h1  {
     box-shadow: 0px 10px 10px 0.5px rgb(117, 116, 116);
     background-color: white;
     transition: ease 0.5s;
+    width: auto;
+    min-width: 230px;
 }
 
 .imagem:hover {
@@ -266,8 +268,7 @@ h1  {
 }
 
 .imagemCamisaCE {
-    width: auto;
-    min-width: 200px;
+    width: 100%;
 }
 
 .geral {
