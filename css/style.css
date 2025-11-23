@@ -248,6 +248,7 @@ h1  {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
     min-height: 720px;
     padding-top: 15px;
     background-color: #E9E9E9;
@@ -261,6 +262,9 @@ h1  {
     transition: ease 0.5s;
     width: auto;
     min-width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imagem:hover {
@@ -268,7 +272,7 @@ h1  {
 }
 
 .imagemCamisaCE {
-    width: 100%;
+    width: 90%;
 }
 
 .geral {
