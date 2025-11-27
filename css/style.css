@@ -59,9 +59,15 @@ a {
 a:hover {
     color: #ff8888; 
 }
-.inicioLink {
+.inicioLinkIndex {
     color: #FF0000;
 }
+
+.navTelaTime .produtosLink {
+    color: #FF0000;
+}
+
+
 
 main {
     display: flex;
