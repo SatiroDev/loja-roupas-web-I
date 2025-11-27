@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    border-bottom: 6px solid;
+    border-image: linear-gradient(to right, #FF0000, #990000) 1;
+    background-color: black;
+}
+
+.nomeLoja {
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.jw {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.sports {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    width: 82%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 15px;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: ease 0.3s;
+}
+
+a:hover {
+    color: #ff8888; 
+}
+
+.produtosLink {
+    color: #FF0000;
+}
+
+main{
+    height: 800px;
+}
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    height: auto;
+    gap: 50px;
+    justify-content: space-between;
+}
+.camisaDestaque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+    max-width: 700px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px 0.5px rgb(117, 116, 116);
+    transition: ease 0.5s;
+    flex-wrap: wrap;
+}
+
+.camisaDestaque:hover {
+    transform: translateY(-5px);
+}
+.popular{
+    border: solid #C90000;
+    border-radius: 10px;
+    padding: 1%;
+    width: 19%;
+    background-color: #C90000;
+}
+.descricaoCamisa{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+.camisas{
+    height: 300px;
+}
+.descricao{
+    font-size: 30px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.preco{
+    color: #187601;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.parcelado{
+    display: flex;
+    gap: 10px;
+}
+.meses{
+    font-size: 12px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.valor{
+    font-size: 12px;
+    color: #FF0000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.maisVendida{
+    border: solid #C90000;
+    border-radius: 10px;
+    padding: 1%;
+    width: 32%;
+    background-color: #C90000;
+}
